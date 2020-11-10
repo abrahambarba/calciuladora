@@ -1,2 +1,2 @@
-# calciuladora
+# calculadora
 calculadora con CSS
