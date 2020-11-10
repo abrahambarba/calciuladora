@@ -1,0 +1,90 @@
+*{ /*aplicará a todo lo que sea html*/
+    margin: 100; /*margen*/
+    padding: 0;
+}
+html, body{
+    left: 0%;
+    top: 0%;
+    height: 98.9%; /*alto*/
+    width: 98.9%; /*ancho*/
+    background-color: darkslategray; /*COLOR DEL FONDO PRINCIPAL*/
+
+}
+
+.contenedor{
+    position: relative;
+    text-align: center;
+    background-color: grey;
+    border-radius: 1px;
+    /*  TOP, LEFT, RIGHT, BOTTOM son para mover el contenedor*/
+    top: 73px; 
+    left: 425px;
+    
+    /*HEIGHT, WIDTH son para el ancho y alto de la mierda figura*/
+    height: 512px;
+    width: 700px;
+
+}
+
+.pantalla{
+    /*RELATIVA para poder modificar cosas a gusto xddddd*/
+    position: relative;
+    background-color: darkslateblue;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    /*ESTABLECÍ ALTURA Y ANCHO DE LA PANTALLA para que no se desaparezca*/
+    height: 80px;
+    width: 700px;
+    text-align: right;
+
+    /*POSICIÓN DE LA PANTALLA*/
+    top: 1px;
+
+}
+
+/*Contenedor de botones*/
+.filas{
+    background-color: #571845;
+
+}
+
+.op{
+    height: 70px;
+    width: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #571845;
+    font-size: 40px;
+    text-align: center;
+    background-color: #FF5733;
+}
+
+.op2{
+    height: 70px;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    background-color: darkred;
+}
+
+/*TEXTO Y COSAS DE LOS BOTÓNES*/
+.tamaño{
+    /*tamaño de los botones*/
+    height: 90px;
+    width: 100px;
+    /*fuente*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: #571845;
+    font-size: 50px;
+    text-align: center;
+    background-color: grey;
+}
+
+
+
+#571845 morado
+#900C3E rojo nigga
+#C70039 rojoo
+#FF5733 naranja
+#FFC300 amarillo
